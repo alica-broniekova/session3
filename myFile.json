@@ -1,79 +1,79 @@
 [
-    {
-      "_id": 9788055143071,
-      "index": 0,
-      "Title": "Harry Potter and the philosopher's stone",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure"],
-      "Year_of_publication": 1997,
-      "Publishers": "Bloomsbury",
-      "Publishing_country": "Great Britain",
-      "Number_of_pages": 318
-    },
-    {
-      "_id": 9788055143088,
-      "index": 1,
-      "Title": "Harry Potter and the chamber of secrets",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure"],
-      "Year of publication": 1998,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 358
-    },
-    {
-      "_id": 9788055143095,
-      "index": 2,
-      "Title": "Harry Potter and the Prisoner of Azkaban",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure"],
-      "Year of publication": 1999,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 437
-    },
-    {
-      "_id": 9788055143101,
-      "index": 3,
-      "Title": "Harry Potter and the Goblet of Fire",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure", "Novel"],
-      "Year of publication": 2000,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 710
-    },
-    {
-      "_id": 9788055143118,
-      "index": 4,
-      "Title": "Harry Potter and the Order of the Phoenix",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure", "Novel"],
-      "Year of publication": 2003,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 831
-    },
-    {
-      "_id": 9788055143125,
-      "index": 5,
-      "Title": "Harry Potter and the Half-Blood Prince",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure"],
-      "Year of publication": 2005,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 543
-    },
-    {
-      "_id": 9788055143132,
-      "index": 6,
-      "Title": "Harry Potter and the Deathly Hallows",
-      "Autor": ["J.K.Rowling"],
-      "Genre": ["Fantasy", "Adventure"],
-      "Year of publication": 2007,
-      "Publishers": "Bloomsbury",
-      "Publishing country": "Great Britain",
-      "Number of pages": 623
-    }
-  ]
+  {
+    "_id": 9788055143071,
+    "index": 0,
+    "Title": "Harry Potter and the philosopher's stone",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure"],
+    "Year_of_publication": 1997,
+    "Publishers": "Bloomsbury",
+    "Publishing_country": "Great Britain",
+    "Number_of_pages": 318
+  },
+  {
+    "_id": 9788055143088,
+    "index": 1,
+    "Title": "Harry Potter and the chamber of secrets",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure"],
+    "Year of publication": 1998,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 358
+  },
+  {
+    "_id": 9788055143095,
+    "index": 2,
+    "Title": "Harry Potter and the Prisoner of Azkaban",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure"],
+    "Year of publication": 1999,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 437
+  },
+  {
+    "_id": 9788055143101,
+    "index": 3,
+    "Title": "Harry Potter and the Goblet of Fire",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure", "Novel"],
+    "Year of publication": 2000,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 710
+  },
+  {
+    "_id": 9788055143118,
+    "index": 4,
+    "Title": "Harry Potter and the Order of the Phoenix",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure", "Novel"],
+    "Year of publication": 2003,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 831
+  },
+  {
+    "_id": 9788055143125,
+    "index": 5,
+    "Title": "Harry Potter and the Half-Blood Prince",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure"],
+    "Year of publication": 2005,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 543
+  },
+  {
+    "_id": 9788055143132,
+    "index": 6,
+    "Title": "Harry Potter and the Deathly Hallows",
+    "Autor": ["J.K.Rowling"],
+    "Genre": ["Fantasy", "Adventure"],
+    "Year of publication": 2007,
+    "Publishers": "Bloomsbury",
+    "Publishing country": "Great Britain",
+    "Number of pages": 623
+  }
+]
