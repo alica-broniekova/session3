@@ -8,6 +8,19 @@ const cors_1 = __importDefault(require("cors"));
 const body_parser_1 = require("body-parser");
 const http_1 = __importDefault(require("http"));
 const fs_1 = __importDefault(require("fs"));
+const filter_1 = require("./filter");
+let number = {
+    MAX_SAFE_INTEGER: 100000,
+    caseinArray: false
+};
+let array = [];
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+for (let index = 0; index < 1; index++) {
+    array.push(getRandomInt(number.MAX_SAFE_INTEGER));
+}
+console.log(array);
 const myFile = fs_1.default.readFileSync("myFile.json");
 const myJson = JSON.parse(myFile.toString());
 let app;
@@ -47,10 +60,14 @@ function createServer() {
             res.json({ Response: "The book with this ID has not been found" });
         }
     });
-    app.put("/api/library/book/:id/add", (req, res) => {
-        const id = req.params["id"];
-        let ID = parseInt(id);
-        let data = map.get(ID);
+    app.post("/api/library/book/find/author", (req, res) => {
+        const author = req.body["author"];
+        const resAuthor = myJson.filter(book => (0, filter_1.AuthorLookup)(author, book));
+        res.json(resAuthor);
+    });
+    app.put("/api/library/book/add", (req, res) => {
+        let ID = parseInt(array);
+        map.get(ID);
         if (map.has(ID)) {
             res.json({ message: "The given book with the given ID already exists" });
         }
@@ -66,21 +83,21 @@ function createServer() {
                 Number_of_pages: req.body["Number of pages"]
             });
             fs_1.default.writeFileSync("myFile.json", (JSON.stringify(myJson, null, 2)));
-            console.log(myJson);
-            res.json({ message: "The following book was added", id: myJson[myJson.length - 1] });
+            res.json({ message: "The following book was added", book: myJson[myJson.length - 1] });
         }
     });
     app.delete("/api/library/book/:id/delete", (req, res) => {
         const id = req.params["id"];
         let ID = parseInt(id);
-        let data = map.get(ID);
+        map.get(ID);
         if (map.has(ID)) {
             let myJson2 = myJson.filter((book) => book._id !== ID);
             fs_1.default.writeFileSync("myFile.json", (JSON.stringify(myJson2, null, 2)));
             res.json({ message: "The following book was deleted", id: myJson.filter((book) => book._id === ID) });
+            map.get(myJson2);
         }
         else {
-            res.json({ message: "The given book with the given ID already exists" });
+            res.json({ message: "The given book with the given ID does not exists" });
         }
     });
 }
